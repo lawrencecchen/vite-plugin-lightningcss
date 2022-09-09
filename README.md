@@ -36,3 +36,7 @@ That's it!
 ```ts
 coming soon :)
 ```
+
+## Todos
+
+- [ ] support webassembly option so this package works in stackblitz
