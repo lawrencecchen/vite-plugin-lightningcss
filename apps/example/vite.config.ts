@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     lightningcss({
+      browserslist: "last 2 versions",
       /* options */
     }),
   ],

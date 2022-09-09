@@ -1,6 +1,8 @@
 # Vite Lightning CSS Plugin
 
-Lightning CSS is a fast alternative to autoprefixer.
+Lightning CSS is an extremely fast CSS parser, transformer, bundler, and minifier.
+
+It's a really fast alternative to autoprefixer.
 
 Go here to read more about Lightning CSS: https://lightningcss.dev/
 
