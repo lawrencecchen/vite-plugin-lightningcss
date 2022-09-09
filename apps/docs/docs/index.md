@@ -25,10 +25,25 @@ import lightningcss from "vite-plugin-lightningcss";
 export default {
   plugins: [
     lightningcss({
-      /* options */
+      browserslist: "last 2 versions",
     }),
   ],
 };
+```
+
+```css
+/* index.css */
+h1 {
+  color: oklab(59.686% 0.1009 0.1192);
+}
+```
+
+```css
+/* dist/assets/index.?????.css */
+h1 {
+  color: #c65d07;
+  color: lab(52.2319% 40.1449 59.9171);
+}
 ```
 
 That's it!

@@ -8,7 +8,6 @@ export default defineConfig({
     react(),
     lightningcss({
       browserslist: "last 2 versions",
-      /* options */
     }),
   ],
 });
