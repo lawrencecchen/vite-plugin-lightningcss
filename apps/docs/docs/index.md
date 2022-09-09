@@ -10,11 +10,17 @@ Go here to read more about Lightning CSS: https://lightningcss.dev/
 
 ```bash
 npm i --save-dev vite-plugin-lightningcss
+```
 
+```bash
 pnpm add -D vite-plugin-lightningcss
+```
 
+```bash
 yarn add --dev vite-plugin-lightningcss
+```
 
+```bash
 bun add -d vite-plugin-lightningcss
 ```
 
