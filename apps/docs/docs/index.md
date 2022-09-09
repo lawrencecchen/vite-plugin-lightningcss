@@ -24,6 +24,8 @@ yarn add --dev vite-plugin-lightningcss
 bun add -d vite-plugin-lightningcss
 ```
 
+## Usage
+
 ```ts
 // vite.config.ts
 import lightningcss from "vite-plugin-lightningcss";
