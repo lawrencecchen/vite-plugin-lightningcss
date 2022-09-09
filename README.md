@@ -10,7 +10,7 @@ npm i -D vite-plugin-lightningcss
 
 ```ts
 // vite.config.ts
-import lightningcss from "./src/lib";
+import lightningcss from "vite-plugin-lightningcss";
 
 export default {
   plugins: [
