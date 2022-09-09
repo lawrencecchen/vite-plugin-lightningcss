@@ -1,16 +1,30 @@
 {
   "name": "vite-plugin-lightningcss",
   "module": "src/index.ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "author": "Lawrence Chen <lawrencechen2002@gmail.com>",
   "license": "MIT",
   "description": "A Vite plugin for Lightning CSS.",
   "type": "module",
+  "homepage": "https://github.com/lawrencecchen/vite-plugin-lightningcss#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lawrencecchen/vite-plugin-lightningcss.git"
+  },
+  "keywords": [
+    "css",
+    "autoprefixer",
+    "prefix",
+    "vite"
+  ],
+  "sideEffects": false,
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
   },
+  
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -29,9 +43,5 @@
     "tsup": "^6.2.3",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lawrencecchen/vite-plugin-lightningcss.git"
   }
 }
