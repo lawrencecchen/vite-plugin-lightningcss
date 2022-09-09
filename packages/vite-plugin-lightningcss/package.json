@@ -1,0 +1,35 @@
+{
+  "name": "vite-plugin-lightningcss",
+  "module": "src/index.ts",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --external ../pkg && tsc --emitDeclarationOnly --declaration --outDir ./dist"
+  },
+  "dependencies": {
+    "browserslist": "^4.21.3",
+    "lightningcss": "^1.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "tsup": "^6.2.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  }
+}

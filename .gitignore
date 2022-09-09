@@ -1,0 +1,23 @@
+node_modules/
+
+# misc
+.DS_Store
+*.pem
+
+# local env files
+.env
+.env*.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+dist
