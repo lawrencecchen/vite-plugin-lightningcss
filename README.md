@@ -1,11 +1,19 @@
 # Vite Lightning CSS Plugin
 
+Lightning CSS is a fast alternative to autoprefixer.
+
+Go here to read more about Lightning CSS: https://lightningcss.dev/
+
 ## Installation
 
-### Vite
-
 ```bash
-npm i -D vite-plugin-lightningcss
+npm i --save-dev vite-plugin-lightningcss
+
+pnpm add -D vite-plugin-lightningcss
+
+yarn add --dev vite-plugin-lightningcss
+
+bun add -d vite-plugin-lightningcss
 ```
 
 ```ts

@@ -22,7 +22,7 @@ importers:
       react-dom: ^18.2.0
       typescript: ^4.6.4
       vite: ^3.1.0
-      vite-plugin-lightningcss: 0.0.1
+      vite-plugin-lightningcss: 0.0.2
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -32,7 +32,7 @@ importers:
       '@vitejs/plugin-react': 2.1.0_vite@3.1.0
       typescript: 4.8.3
       vite: 3.1.0
-      vite-plugin-lightningcss: 0.0.1
+      vite-plugin-lightningcss: 0.0.2
 
   packages/vite-plugin-lightningcss:
     specifiers:
@@ -1840,9 +1840,8 @@ packages:
       escalade: 3.1.1
       picocolors: 1.0.0
 
-  /vite-plugin-lightningcss/0.0.1:
-    resolution: {integrity: sha512-CniGj6QgxPaMvhE1NQfgFSMNWRz6UYclxIWcdEwAihf0jt5E1ZWLgYSAcDdHPdtRBcM9th3HWMJckgR12r51CQ==}
-    engines: {node: '>= 16.0.0'}
+  /vite-plugin-lightningcss/0.0.2:
+    resolution: {integrity: sha512-wleZ9ZbGZ2/X0Cc07g5xI4vGYXHt7XJJoENfaqw7BbfKvD2MgOCgw0+rKIqYeVDTQeP29YaqMOGRQrDS9b+hKw==}
     dependencies:
       browserslist: 4.21.3
       lightningcss: 1.14.0
