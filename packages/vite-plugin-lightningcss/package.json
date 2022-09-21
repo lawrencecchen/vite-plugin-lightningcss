@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-lightningcss",
   "module": "src/index.ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Lawrence Chen <lawrencechen2002@gmail.com>",
   "license": "MIT",
   "description": "A Vite plugin for Lightning CSS.",
@@ -24,7 +24,6 @@
       "require": "./dist/index.cjs"
     }
   },
-  
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -35,13 +34,13 @@
     "build": "tsup src/index.ts --format esm,cjs --external ../pkg && tsc --emitDeclarationOnly --declaration --outDir ./dist"
   },
   "dependencies": {
-    "browserslist": "^4.21.3",
-    "lightningcss": "^1.14.0"
+    "browserslist": "^4.21.4",
+    "lightningcss": "^1.16.0"
   },
   "devDependencies": {
-    "@types/node": "^18.7.16",
+    "@types/node": "^18.7.18",
     "tsup": "^6.2.3",
     "typescript": "^4.6.4",
-    "vite": "^3.1.0"
+    "vite": "^3.1.3"
   }
 }
