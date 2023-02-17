@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-lightningcss",
   "module": "src/index.ts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Lawrence Chen <lawrencechen2002@gmail.com>",
   "license": "MIT",
   "description": "A Vite plugin for Lightning CSS.",
