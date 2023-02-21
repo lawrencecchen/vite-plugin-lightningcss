@@ -1,16 +1,16 @@
 import browserslist from "browserslist";
-import type { TransformOptions } from "lightningcss";
+import type { TransformOptions, CustomAtRules } from "lightningcss";
 import * as css from "lightningcss";
 import { type Plugin } from "vite";
 
 const fileRegex = /\.(css)$/;
 
-type ViteTransformOptions = Omit<TransformOptions, "filename" | "code"> & {
+type ViteTransformOptions<C extends CustomAtRules> = Omit<TransformOptions<C>, "filename" | "code"> & {
   browserslist?: string | readonly string[];
 };
 
-function lightningcss(opts?: ViteTransformOptions): Plugin[] {
-  const defaultOptions: ViteTransformOptions = {
+function lightningcss<C extends CustomAtRules>(opts?: ViteTransformOptions<C>): Plugin[] {
+  const defaultOptions: ViteTransformOptions<C> = {
     minify: true,
     sourceMap: true,
   };
