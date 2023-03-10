@@ -3,7 +3,7 @@ import type { TransformOptions } from "lightningcss";
 import * as css from "lightningcss";
 import { type Plugin } from "vite";
 
-const fileRegex = /\.(css)$/;
+const fileRegex = /\.(css|scss|sass|less|styl)$/;
 
 type ViteTransformOptions = Omit<TransformOptions, "filename" | "code"> & {
   browserslist?: string | readonly string[];
